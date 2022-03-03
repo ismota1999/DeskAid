@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Ticket">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F1EDED"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="388dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Atendente:"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/ticketAttendant"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="escravo Zé"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="Cliente:"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/emailAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="cliente@exemplo.com"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <EditText
+                android:id="@+id/ticketName"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:text="Tags:"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/subjectAnswer"
+                        android:layout_width="347dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="Etiqueta"
+                        android:textColor="#000000"
+                        android:textSize="24sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_weight="1"
+                    android:text="Prioridade:"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/TagsAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:hint="Super urgente"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#DCD8D8"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tituloTicket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#AFABAB"
+                android:hint="Título de ticket todo marado"
+                android:textColor="#000000"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mensagem do cliente:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tickDescr"
+                android:layout_width="match_parent"
+                android:layout_height="141dp"
+                android:hint="Descrição do problema"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resposta:"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="149dp"
+                android:gravity="top"
+                android:hint="Responder ao cliente"
+                android:inputType="text"
+                android:maxLength="500"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="574dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="318dp"
+                    android:layout_height="72dp"
+                    android:text="Enviar"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

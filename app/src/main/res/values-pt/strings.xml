@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Configurações</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_sair">Sair</string>
+    <string name="menu_stats">Estatisticas</string>
+    <string name="register_menu">Novo Agente</string>
+    <string name="new_tickets">Novo Ticket</string>
+    <string name="admin_welcome_menu">Bem-vindo Admin</string>
+    <string name="Title_register">Registo</string>
+    <string name="name_register">Nome</string>
+    <string name="yourname_register">Seu Nome</string>
+    <string name="Lastname_register">Ultimo Nome</string>
+    <string name="Pass_register">Senha</string>
+    <string name="Repass_register">Confirme a senha</string>
+    <string name="button_register">Submeter</string>
+    <string name="ticket_form">Pedido</string>
+    <string name="name_form">Nome</string>
+    <string name="lastName_form">Ultimo Nome</string>
+    <string name="StrSeeTickets">Ver Tickets</string>
+    <string name="StrSeeStats">Ver Tickets</string>
+    <string name="StrNewTicket">Novos Tickets</string>
+    <string name="Solved_tickets">Tickets Resolvidos</string>
+    <string name="Unsolved_tickets">Tickets Por Resolver</string>
+    <string name="Search_text">Procure o seu Ticket</string>
+    <string name="btn_showTickets">Mostrar Tickets</string>
+    <string name="subjectForm">Assunto</string>
+    <string name="Subject">Assunto:</string>
+    <string name="admin_text">Olá, Administrador</string>
+    <string name="status_text">Status :</string>
+    <string name="Urgent_text">Tickets Urgentes</string>
+    <string name="emailex_register">E-mail@exemplo.com</string>
+
+</resources>

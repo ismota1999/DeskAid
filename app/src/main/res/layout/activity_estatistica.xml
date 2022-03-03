@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Estatistica"
+    tools:layout_editor_absoluteX="-23dp"
+    tools:layout_editor_absoluteY="-1dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="546dp"
+        android:layout_height="378dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="38dp"
+        android:background="#0036F4BE"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentContainerView8"
+        app:layout_constraintVertical_bias="0.449">
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:gravity="center|right"
+            android:text="Tickets by channel   "
+            android:textColor="#0E0D0D"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    E-mail"
+            android:textColor="#0E0D0D"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="402dp"
+                android:layout_height="match_parent"
+                android:max="100"
+                android:maxHeight="60dp"
+                android:minHeight="30dp"
+                android:progress="80"
+                android:progressTint="#009688"
+                android:scrollbarSize="50dp" />
+
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="80%"
+                android:textColor="#0E0D0D" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="    Chat"
+            android:textColor="#0E0D0D"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progressBar5"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="333dp"
+                android:layout_height="77dp"
+                android:layout_weight="1"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="20"
+                android:progressTint="#FFC107"
+                android:scrollbarSize="50dp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="84dp"
+                android:layout_height="76dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="20%"
+                android:textColor="#0E0D0D" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView2"
+        android:layout_width="255dp"
+        android:layout_height="180dp"
+        android:layout_marginEnd="32dp"
+        android:background="#CBCFCECE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fragmentContainerView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView6"
+        android:layout_width="255dp"
+        android:layout_height="180dp"
+        android:layout_marginEnd="32dp"
+        android:background="#CBCFCECE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fragmentContainerView7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView7"
+        android:layout_width="255dp"
+        android:layout_height="180dp"
+        android:layout_marginEnd="32dp"
+        android:background="#CBCFCECE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fragmentContainerView8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView8"
+        android:layout_width="255dp"
+        android:layout_height="180dp"
+        android:layout_marginEnd="80dp"
+        android:background="#CBCFCECE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="243dp"
+        android:layout_height="54dp"
+        android:text="10"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView39"
+        app:layout_constraintHorizontal_bias="0.685"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="217dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="60dp"
+        android:text="30"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView40"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="241dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="44dp"
+        android:text="300 hrs."
+        android:textColor="#000000"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView41"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="241dp"
+        android:layout_height="72dp"
+        android:layout_marginEnd="80dp"
+        android:text="15 min."
+        android:textColor="#000000"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="254dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:text="Resolved"
+        android:textColor="#090909"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView36"
+        app:layout_constraintHorizontal_bias="0.991"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="254dp"
+        android:layout_height="91dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:text="Avg Solution Time"
+        android:textColor="#090909"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView37"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="254dp"
+        android:layout_height="91dp"
+        android:gravity="center"
+        android:text="First Reply"
+        android:textColor="#090909"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.228" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="239dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="84dp"
+        android:gravity="center"
+        android:text="First Call Resolution"
+        android:textColor="#090909"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView27"
+        app:layout_constraintHorizontal_bias="0.196"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.226" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="528dp"
+        android:layout_height="372dp"
+        android:layout_marginStart="84dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.794">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/PieChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

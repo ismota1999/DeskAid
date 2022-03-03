@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "659097777032",
+    "project_id": "deskaidfixed",
+    "storage_bucket": "deskaidfixed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659097777032:android:4eaf5cd91b276a612dc03d",
+        "android_client_info": {
+          "package_name": "com.example.deskaidfixed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659097777032-atmda7sj5bi4p6kucqdsjefqtovcnjk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB_IxyotGjsAj78eGzQeasVQfytXsFyN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659097777032-atmda7sj5bi4p6kucqdsjefqtovcnjk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

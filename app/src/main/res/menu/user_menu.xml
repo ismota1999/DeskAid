@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/create_ticket"
+        android:title="Create Ticket" />
+    <item
+        android:id="@+id/dashboard_user"
+        android:title="@string/StrDashboard" />
+    <item
+        android:id="@+id/signout_user"
+        android:title="Sign Out" />
+</menu>

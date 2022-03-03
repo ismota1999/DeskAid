@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name" translatable="false">DeskAid</string>
+    <string name="title_activity_admin_view" translatable="false">AdminView</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="home_menu" translatable="false">Home</string>
+    <string name="tickets_menu" translatable="false">Tickets</string>
+    <string name="menu_sair">Logout</string>
+    <string name="menu_stats">Statistics</string>
+    <string name="register_menu">New Agent</string>
+    <string name="menu_tickets" translatable="false">Tickets</string>
+    <string name="new_tickets">New Ticket</string>
+    <string name="admin_welcome_menu">Welcome, Admin</string>
+
+    <string name="Title_register">Register</string>
+    <string name="name_register">Name</string>
+    <string name="yourname_register">Your Name</string>
+    <string name="Lastname_register">Last Name</string>
+    <string name="Pass_register">Password</string>
+    <string name="email_register" translatable="false">E-mail</string>
+    <string name="emailex_register" translatable="false">E-mail@example.com</string>
+    <string name="Repass_register">Repeat your password</string>
+    <string name="button_register">Submit</string>
+    <string name="title_activity_user_interface" translatable="false">UserInterface</string>
+    <string name="title_activity_user_menu" translatable="false">UserMenu</string>
+    <string name="ticket_form">Request</string>
+    <string name="name_form">Name</string>
+    <string name="lastName_form">Last Name</string>
+    <string name="email_form" translatable="false">E-mail</string>
+
+    <string name="StrSeeTickets">See Tickets</string>
+    <string name="StrSeeStats">See Statistics</string>
+    <string name="StrDashboard" translatable="false">Dashboard</string>
+    <string name="StrNewTicket">New Tickets</string>
+
+    <string name="Solved_tickets">Solved Tickets</string>
+    <string name="Unsolved_tickets">Your Unsolved Tickets</string>
+    <string name="Search_text">Search your ticket</string>
+
+    <string name="title_activity_dashboard_view" translatable="false">dashboard_label</string>
+    <string name="title_activity_ticket_form_view" translatable="false">ticket_form</string>
+    <string name="btn_showTickets">Show Tickets</string>
+    <string name="subjectForm">Subject</string>
+    <string-array name="statusList">
+        <item>Online</item>
+        <item>Invisible</item>
+        <item>Offline</item>
+    </string-array>
+
+    <string-array name="Tag">
+        <item>Compra</item>
+        <item>Entrega</item>
+        <item>Pagamento</item>
+    </string-array>
+
+    <string-array name="Priority">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="States">
+        <item>Solved</item>
+        <item>Unsolved</item>
+        <item>In progress</item>
+    </string-array>
+
+    <string name="Subject">Subject :</string>
+    <string name="admin_text">Hi, admin</string>
+    <string name="status_text">Status :</string>
+    <string name="Urgent_text">Urgent Tickets</string>
+    <string name="activity_email">activity_email</string>
+
+
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<ImageView
+android:id="@+id/imageView"
+android:layout_width="471dp"
+android:layout_height="210dp"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.094"
+app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="565dp"
+        android:layout_height="79dp"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="20sp"
+        app:backgroundTint="@color/teal_900"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.102"
+        tools:ignore="DuplicateClickableBoundsCheck" />
+
+<EditText
+android:id="@+id/passwordLogin"
+android:layout_width="565dp"
+android:layout_height="79dp"
+android:backgroundTint="@color/teal_900"
+android:fontFamily="@font/roboto"
+android:hint="Password"
+android:inputType="textPassword"
+android:textSize="20sp"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/emailLogin"
+app:layout_constraintVertical_bias="0.087" />
+
+<CheckBox
+android:id="@+id/showPassword"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:fontFamily="@font/roboto"
+android:text="Show Password"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.841"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintVertical_bias="0.635" />
+
+<CheckBox
+android:id="@+id/remember_me"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:fontFamily="@font/roboto"
+android:text="Remember me"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintHorizontal_bias="0.309"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toBottomOf="@+id/passwordLogin"
+app:layout_constraintVertical_bias="0.071" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="168dp"
+        android:layout_height="69dp"
+        android:backgroundTint="#D5D9DC"
+        android:fontFamily="@font/roboto"
+        android:text="Login"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.776" />
+
+    <TextView
+        android:id="@+id/fgPasswordtxt"
+        android:layout_width="147dp"
+        android:layout_height="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="Forgot password?"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton"
+        app:layout_constraintVertical_bias="0.535" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
